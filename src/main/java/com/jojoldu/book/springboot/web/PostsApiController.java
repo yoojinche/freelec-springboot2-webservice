@@ -49,9 +49,4 @@ public class PostsApiController {
     public List<PostsListResponseDto> getPostsList(){
         return postsService.findAllDesc();
     }
-
-
-
-
-
 }
